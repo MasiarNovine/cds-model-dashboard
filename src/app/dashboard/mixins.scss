@@ -1,0 +1,13 @@
+@use '@carbon/react/scss/spacing' as *;   //@use loads from other stylesheets as modules
+@use '@carbon/react/scss/theme' as *;
+
+/*
+Uses the mixin pattern (https://www.patterns.dev/vanilla/mixin-pattern), having the
+objective to provide an object, which can be reused w/o inheritance. In SCSS a mixin
+object can be used at the extension point by '@include <name>;'
+*/
+
+@mixin dashboard-page-background() {
+  background-color: $layer-01;
+  position: relative;
+}
