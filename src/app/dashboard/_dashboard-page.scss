@@ -11,3 +11,7 @@
 .dashboard-page__heading {
   @include type-style('productive-heading-05');
 }
+
+.dashboard-page__sample_table {
+  padding-top: $spacing-05;
+}
